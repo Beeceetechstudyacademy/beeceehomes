@@ -1,10 +1,10 @@
-import { useState, useMemo, useRef, useEffect } from "react";
+import React, { useState, useMemo, useRef, useEffect } from "react";
 import {
-  Search, Home, PlusCircle, Info, LogIn, Building2, Bed, Bath, Maximize,
+Search, Home, PlusCircle, Info, LogIn, Building2, Bed, Bath, Maximize,
   MapPin, Phone, MessageCircle, ArrowLeft, CheckCircle2, Upload, X,
   Bot, Send, Sparkles, Play, LogOut, LayoutDashboard, User
 } from "lucide-react";
-impor// Inline components fix for Vercel
+// Inline components fix for Vercel
 const Button = ({ children, ...props }: any) => <button {...props}>{children}</button>;
 const Input = (props: any) => <input {...props} />;
 const Label = ({ children, ...props }: any) => <label {...props}>{children}</label>;
